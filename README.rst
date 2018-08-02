@@ -1,3 +1,8 @@
+Custom-Minimal-Static-Safe-cpython
+=============================
+A fork of cpython with modified sources allowing for static build with custom modules and safer implementation for embedding
+
+
 This is Python version 3.7.0+
 =============================
 
