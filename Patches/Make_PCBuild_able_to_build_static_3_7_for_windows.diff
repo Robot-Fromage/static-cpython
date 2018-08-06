@@ -1,0 +1,502 @@
+diff --git a/PCbuild/_asyncio.vcxproj b/PCbuild/_asyncio.vcxproj
+index 3cca000409..984cec4a5b 100644
+--- a/PCbuild/_asyncio.vcxproj
++++ b/PCbuild/_asyncio.vcxproj
+@@ -42,7 +42,7 @@
+   <Import Project="python.props" />
+   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+   <PropertyGroup Label="Configuration">
+-    <ConfigurationType>DynamicLibrary</ConfigurationType>
++    <ConfigurationType>StaticLibrary</ConfigurationType>
+     <CharacterSet>NotSet</CharacterSet>
+   </PropertyGroup>
+   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+diff --git a/PCbuild/_bz2.vcxproj b/PCbuild/_bz2.vcxproj
+index 3c21848ae2..63bc9fe841 100644
+--- a/PCbuild/_bz2.vcxproj
++++ b/PCbuild/_bz2.vcxproj
+@@ -42,7 +42,7 @@
+   <Import Project="python.props" />
+   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+   <PropertyGroup Label="Configuration">
+-    <ConfigurationType>DynamicLibrary</ConfigurationType>
++    <ConfigurationType>StaticLibrary</ConfigurationType>
+     <CharacterSet>NotSet</CharacterSet>
+   </PropertyGroup>
+   <PropertyGroup Label="Configuration" />
+diff --git a/PCbuild/_contextvars.vcxproj b/PCbuild/_contextvars.vcxproj
+index 7418e86570..1cce45669e 100644
+--- a/PCbuild/_contextvars.vcxproj
++++ b/PCbuild/_contextvars.vcxproj
+@@ -42,7 +42,7 @@
+   <Import Project="python.props" />
+   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+   <PropertyGroup Label="Configuration">
+-    <ConfigurationType>DynamicLibrary</ConfigurationType>
++    <ConfigurationType>StaticLibrary</ConfigurationType>
+     <CharacterSet>NotSet</CharacterSet>
+   </PropertyGroup>
+   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+diff --git a/PCbuild/_ctypes.vcxproj b/PCbuild/_ctypes.vcxproj
+index 81670a75bd..e6d539e07e 100644
+--- a/PCbuild/_ctypes.vcxproj
++++ b/PCbuild/_ctypes.vcxproj
+@@ -42,7 +42,7 @@
+   <Import Project="python.props" />
+   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+   <PropertyGroup Label="Configuration">
+-    <ConfigurationType>DynamicLibrary</ConfigurationType>
++    <ConfigurationType>StaticLibrary</ConfigurationType>
+     <CharacterSet>NotSet</CharacterSet>
+   </PropertyGroup>
+   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+diff --git a/PCbuild/_ctypes_test.vcxproj b/PCbuild/_ctypes_test.vcxproj
+index b62407fadf..242d1c4c8d 100644
+--- a/PCbuild/_ctypes_test.vcxproj
++++ b/PCbuild/_ctypes_test.vcxproj
+@@ -43,7 +43,7 @@
+   <Import Project="python.props" />
+   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+   <PropertyGroup Label="Configuration">
+-    <ConfigurationType>DynamicLibrary</ConfigurationType>
++    <ConfigurationType>StaticLibrary</ConfigurationType>
+     <CharacterSet>NotSet</CharacterSet>
+   </PropertyGroup>
+   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+diff --git a/PCbuild/_decimal.vcxproj b/PCbuild/_decimal.vcxproj
+index df9f600cda..d864e07f59 100644
+--- a/PCbuild/_decimal.vcxproj
++++ b/PCbuild/_decimal.vcxproj
+@@ -42,7 +42,7 @@
+   <Import Project="python.props" />
+   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+   <PropertyGroup Label="Configuration">
+-    <ConfigurationType>DynamicLibrary</ConfigurationType>
++    <ConfigurationType>StaticLibrary</ConfigurationType>
+     <CharacterSet>NotSet</CharacterSet>
+   </PropertyGroup>
+   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+diff --git a/PCbuild/_distutils_findvs.vcxproj b/PCbuild/_distutils_findvs.vcxproj
+index 3db1280ac8..9dfb00c8cb 100644
+--- a/PCbuild/_distutils_findvs.vcxproj
++++ b/PCbuild/_distutils_findvs.vcxproj
+@@ -42,7 +42,7 @@
+   <Import Project="python.props" />
+   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+   <PropertyGroup Label="Configuration">
+-    <ConfigurationType>DynamicLibrary</ConfigurationType>
++    <ConfigurationType>StaticLibrary</ConfigurationType>
+     <CharacterSet>NotSet</CharacterSet>
+   </PropertyGroup>
+   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+diff --git a/PCbuild/_elementtree.vcxproj b/PCbuild/_elementtree.vcxproj
+index 2338af4505..01cc3495fa 100644
+--- a/PCbuild/_elementtree.vcxproj
++++ b/PCbuild/_elementtree.vcxproj
+@@ -42,7 +42,7 @@
+   <Import Project="python.props" />
+   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+   <PropertyGroup Label="Configuration">
+-    <ConfigurationType>DynamicLibrary</ConfigurationType>
++    <ConfigurationType>StaticLibrary</ConfigurationType>
+     <CharacterSet>NotSet</CharacterSet>
+   </PropertyGroup>
+   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+diff --git a/PCbuild/_hashlib.vcxproj b/PCbuild/_hashlib.vcxproj
+index d6d88029d7..a302aa4e92 100644
+--- a/PCbuild/_hashlib.vcxproj
++++ b/PCbuild/_hashlib.vcxproj
+@@ -42,7 +42,7 @@
+   <Import Project="python.props" />
+   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+   <PropertyGroup Label="Configuration">
+-    <ConfigurationType>DynamicLibrary</ConfigurationType>
++    <ConfigurationType>StaticLibrary</ConfigurationType>
+     <CharacterSet>NotSet</CharacterSet>
+   </PropertyGroup>
+   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+diff --git a/PCbuild/_lzma.vcxproj b/PCbuild/_lzma.vcxproj
+index d8b159e6a1..b9c6b5ff96 100644
+--- a/PCbuild/_lzma.vcxproj
++++ b/PCbuild/_lzma.vcxproj
+@@ -42,7 +42,7 @@
+   <Import Project="python.props" />
+   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+   <PropertyGroup Label="Configuration">
+-    <ConfigurationType>DynamicLibrary</ConfigurationType>
++    <ConfigurationType>StaticLibrary</ConfigurationType>
+     <CharacterSet>NotSet</CharacterSet>
+   </PropertyGroup>
+   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+diff --git a/PCbuild/_msi.vcxproj b/PCbuild/_msi.vcxproj
+index 6be83ca686..f1becc8525 100644
+--- a/PCbuild/_msi.vcxproj
++++ b/PCbuild/_msi.vcxproj
+@@ -42,7 +42,7 @@
+   <Import Project="python.props" />
+   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+   <PropertyGroup Label="Configuration">
+-    <ConfigurationType>DynamicLibrary</ConfigurationType>
++    <ConfigurationType>StaticLibrary</ConfigurationType>
+     <CharacterSet>NotSet</CharacterSet>
+   </PropertyGroup>
+   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+diff --git a/PCbuild/_multiprocessing.vcxproj b/PCbuild/_multiprocessing.vcxproj
+index 0e3f376eaf..b1d91294f1 100644
+--- a/PCbuild/_multiprocessing.vcxproj
++++ b/PCbuild/_multiprocessing.vcxproj
+@@ -42,7 +42,7 @@
+   <Import Project="python.props" />
+   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+   <PropertyGroup Label="Configuration">
+-    <ConfigurationType>DynamicLibrary</ConfigurationType>
++    <ConfigurationType>StaticLibrary</ConfigurationType>
+     <CharacterSet>NotSet</CharacterSet>
+   </PropertyGroup>
+   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+diff --git a/PCbuild/_overlapped.vcxproj b/PCbuild/_overlapped.vcxproj
+index 829cc81b62..4ee95256fd 100644
+--- a/PCbuild/_overlapped.vcxproj
++++ b/PCbuild/_overlapped.vcxproj
+@@ -42,7 +42,7 @@
+   <Import Project="python.props" />
+   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+   <PropertyGroup Label="Configuration">
+-    <ConfigurationType>DynamicLibrary</ConfigurationType>
++    <ConfigurationType>StaticLibrary</ConfigurationType>
+     <CharacterSet>NotSet</CharacterSet>
+   </PropertyGroup>
+   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+diff --git a/PCbuild/_queue.vcxproj b/PCbuild/_queue.vcxproj
+index 81df2dfe51..7bc07bb50d 100644
+--- a/PCbuild/_queue.vcxproj
++++ b/PCbuild/_queue.vcxproj
+@@ -42,7 +42,7 @@
+   <Import Project="python.props" />
+   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+   <PropertyGroup Label="Configuration">
+-    <ConfigurationType>DynamicLibrary</ConfigurationType>
++    <ConfigurationType>StaticLibrary</ConfigurationType>
+     <CharacterSet>NotSet</CharacterSet>
+   </PropertyGroup>
+   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+diff --git a/PCbuild/_socket.vcxproj b/PCbuild/_socket.vcxproj
+index 9e27891081..180a731984 100644
+--- a/PCbuild/_socket.vcxproj
++++ b/PCbuild/_socket.vcxproj
+@@ -42,7 +42,7 @@
+   <Import Project="python.props" />
+   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+   <PropertyGroup Label="Configuration">
+-    <ConfigurationType>DynamicLibrary</ConfigurationType>
++    <ConfigurationType>StaticLibrary</ConfigurationType>
+     <CharacterSet>NotSet</CharacterSet>
+   </PropertyGroup>
+   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+diff --git a/PCbuild/_sqlite3.vcxproj b/PCbuild/_sqlite3.vcxproj
+index 1f1a1c8cad..88176b0962 100644
+--- a/PCbuild/_sqlite3.vcxproj
++++ b/PCbuild/_sqlite3.vcxproj
+@@ -42,7 +42,7 @@
+   <Import Project="python.props" />
+   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+   <PropertyGroup Label="Configuration">
+-    <ConfigurationType>DynamicLibrary</ConfigurationType>
++    <ConfigurationType>StaticLibrary</ConfigurationType>
+     <CharacterSet>NotSet</CharacterSet>
+   </PropertyGroup>
+   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+diff --git a/PCbuild/_ssl.vcxproj b/PCbuild/_ssl.vcxproj
+index aaf95a361c..8b5d293def 100644
+--- a/PCbuild/_ssl.vcxproj
++++ b/PCbuild/_ssl.vcxproj
+@@ -42,7 +42,7 @@
+   <Import Project="python.props" />
+   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+   <PropertyGroup Label="Configuration">
+-    <ConfigurationType>DynamicLibrary</ConfigurationType>
++    <ConfigurationType>StaticLibrary</ConfigurationType>
+     <CharacterSet>NotSet</CharacterSet>
+   </PropertyGroup>
+   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+diff --git a/PCbuild/_testbuffer.vcxproj b/PCbuild/_testbuffer.vcxproj
+index fd2f320d79..c0e714d3d2 100644
+--- a/PCbuild/_testbuffer.vcxproj
++++ b/PCbuild/_testbuffer.vcxproj
+@@ -43,7 +43,7 @@
+   <Import Project="python.props" />
+   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+   <PropertyGroup Label="Configuration">
+-    <ConfigurationType>DynamicLibrary</ConfigurationType>
++    <ConfigurationType>StaticLibrary</ConfigurationType>
+     <CharacterSet>NotSet</CharacterSet>
+   </PropertyGroup>
+   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+diff --git a/PCbuild/_testcapi.vcxproj b/PCbuild/_testcapi.vcxproj
+index e668000bf2..565ad43308 100644
+--- a/PCbuild/_testcapi.vcxproj
++++ b/PCbuild/_testcapi.vcxproj
+@@ -43,7 +43,7 @@
+   <Import Project="python.props" />
+   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+   <PropertyGroup Label="Configuration">
+-    <ConfigurationType>DynamicLibrary</ConfigurationType>
++    <ConfigurationType>StaticLibrary</ConfigurationType>
+     <CharacterSet>NotSet</CharacterSet>
+   </PropertyGroup>
+   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+diff --git a/PCbuild/_testconsole.vcxproj b/PCbuild/_testconsole.vcxproj
+index d351cedffd..9720589ef5 100644
+--- a/PCbuild/_testconsole.vcxproj
++++ b/PCbuild/_testconsole.vcxproj
+@@ -43,7 +43,7 @@
+   <Import Project="python.props" />
+   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+   <PropertyGroup Label="Configuration">
+-    <ConfigurationType>DynamicLibrary</ConfigurationType>
++    <ConfigurationType>StaticLibrary</ConfigurationType>
+     <CharacterSet>NotSet</CharacterSet>
+   </PropertyGroup>
+   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+diff --git a/PCbuild/_testimportmultiple.vcxproj b/PCbuild/_testimportmultiple.vcxproj
+index 56da66cf32..c9867c9a97 100644
+--- a/PCbuild/_testimportmultiple.vcxproj
++++ b/PCbuild/_testimportmultiple.vcxproj
+@@ -43,7 +43,7 @@
+   <Import Project="python.props" />
+   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+   <PropertyGroup Label="Configuration">
+-    <ConfigurationType>DynamicLibrary</ConfigurationType>
++    <ConfigurationType>StaticLibrary</ConfigurationType>
+     <CharacterSet>NotSet</CharacterSet>
+   </PropertyGroup>
+   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+diff --git a/PCbuild/_testmultiphase.vcxproj b/PCbuild/_testmultiphase.vcxproj
+index 106927c67b..a0315971c2 100644
+--- a/PCbuild/_testmultiphase.vcxproj
++++ b/PCbuild/_testmultiphase.vcxproj
+@@ -43,7 +43,7 @@
+   <Import Project="python.props" />
+   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+   <PropertyGroup Label="Configuration">
+-    <ConfigurationType>DynamicLibrary</ConfigurationType>
++    <ConfigurationType>StaticLibrary</ConfigurationType>
+     <CharacterSet>NotSet</CharacterSet>
+   </PropertyGroup>
+   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+diff --git a/PCbuild/_tkinter.vcxproj b/PCbuild/_tkinter.vcxproj
+index 95e3cd50ec..26abe5662e 100644
+--- a/PCbuild/_tkinter.vcxproj
++++ b/PCbuild/_tkinter.vcxproj
+@@ -42,7 +42,7 @@
+   <Import Project="python.props" />
+   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+   <PropertyGroup Label="Configuration">
+-    <ConfigurationType>DynamicLibrary</ConfigurationType>
++    <ConfigurationType>StaticLibrary</ConfigurationType>
+     <CharacterSet>NotSet</CharacterSet>
+   </PropertyGroup>
+   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+diff --git a/PCbuild/pcbuild.proj b/PCbuild/pcbuild.proj
+index 5e341959bd..1155708216 100644
+--- a/PCbuild/pcbuild.proj
++++ b/PCbuild/pcbuild.proj
+@@ -43,33 +43,33 @@
+       <BuildInParallel>false</BuildInParallel>
+     </Projects>
+     <!-- python3.dll -->
+-    <Projects Include="python3dll.vcxproj" />
++    <!-- <Projects Include="python3dll.vcxproj" /> -->
+     <!-- py[w].exe -->
+-    <Projects Include="pylauncher.vcxproj;pywlauncher.vcxproj" />
++    <!-- <Projects Include="pylauncher.vcxproj;pywlauncher.vcxproj" /> -->
+     <!-- pyshellext.dll -->
+-    <Projects Include="pyshellext.vcxproj" />
++    <!-- <Projects Include="pyshellext.vcxproj" /> -->
+     <!-- Extension modules -->
+-    <ExtensionModules Include="_asyncio;_contextvars;_ctypes;_decimal;_distutils_findvs;_elementtree;_msi;_multiprocessing;_overlapped;pyexpat;_queue;select;unicodedata;winsound" />
++    <!-- <ExtensionModules Include="_asyncio;_contextvars;_ctypes;_decimal;_distutils_findvs;_elementtree;_msi;_multiprocessing;_overlapped;pyexpat;_queue;select;unicodedata;winsound" /> -->
+     <!-- Extension modules that require external sources -->
+-    <ExternalModules Include="_bz2;_lzma;_sqlite3" />
++    <!-- <ExternalModules Include="_bz2;_lzma;_sqlite3" /> -->
+     <!-- _ssl will build _socket as well, which may cause conflicts in parallel builds -->
+-    <ExtensionModules Include="_socket" Condition="!$(IncludeSSL) or !$(IncludeExternals)" />
+-    <ExternalModules Include="_ssl;_hashlib" Condition="$(IncludeSSL)" />
+-    <ExternalModules Include="_tkinter" Condition="$(IncludeTkinter)" />
+-    <ExtensionModules Include="@(ExternalModules->'%(Identity)')" Condition="$(IncludeExternals)" />
+-    <Projects Include="@(ExtensionModules->'%(Identity).vcxproj')" Condition="$(IncludeExtensions)" />
++    <!-- <ExtensionModules Include="_socket" Condition="!$(IncludeSSL) or !$(IncludeExternals)" /> -->
++    <!-- <ExternalModules Include="_ssl;_hashlib" Condition="$(IncludeSSL)" /> -->
++    <!-- <ExternalModules Include="_tkinter" Condition="$(IncludeTkinter)" /> -->
++    <!-- <ExtensionModules Include="@(ExternalModules->'%(Identity)')" Condition="$(IncludeExternals)" /> -->
++    <!-- <Projects Include="@(ExtensionModules->'%(Identity).vcxproj')" Condition="$(IncludeExtensions)" /> -->
+     <!-- Test modules -->
+-    <TestModules Include="_ctypes_test;_testbuffer;_testcapi;_testembed;_testimportmultiple;_testmultiphase;_testconsole" />
+-    <TestModules Include="xxlimited" Condition="'$(Configuration)' == 'Release'" />
+-    <Projects Include="@(TestModules->'%(Identity).vcxproj')" Condition="$(IncludeTests)">
++    <!-- <TestModules Include="_ctypes_test;_testbuffer;_testcapi;_testembed;_testimportmultiple;_testmultiphase;_testconsole" /> -->
++    <!-- <TestModules Include="xxlimited" Condition="'$(Configuration)' == 'Release'" /> -->
++    <!-- <Projects Include="@(TestModules->'%(Identity).vcxproj')" Condition="$(IncludeTests)"> -->
+       <!-- Disable parallel build for test modules -->
+-      <BuildInParallel>false</BuildInParallel>
+-    </Projects>
++      <!-- <BuildInParallel>false</BuildInParallel> -->
++    <!-- </Projects> -->
+     
+     <!-- _freeze_importlib -->
+-    <Projects2 Include="_freeze_importlib.vcxproj" />
++    <!-- <Projects2 Include="_freeze_importlib.vcxproj" /> -->
+     <!-- python[w].exe -->
+-    <Projects2 Include="python.vcxproj;pythonw.vcxproj" />
++    <!-- <Projects2 Include="python.vcxproj;pythonw.vcxproj" /> -->
+   </ItemGroup>
+ 
+   <Target Name="Build">
+diff --git a/PCbuild/pyexpat.vcxproj b/PCbuild/pyexpat.vcxproj
+index 51ca69e95d..ad8c345e12 100644
+--- a/PCbuild/pyexpat.vcxproj
++++ b/PCbuild/pyexpat.vcxproj
+@@ -42,7 +42,7 @@
+   <Import Project="python.props" />
+   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+   <PropertyGroup Label="Configuration">
+-    <ConfigurationType>DynamicLibrary</ConfigurationType>
++    <ConfigurationType>StaticLibrary</ConfigurationType>
+     <CharacterSet>NotSet</CharacterSet>
+   </PropertyGroup>
+   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+diff --git a/PCbuild/pyproject.props b/PCbuild/pyproject.props
+index 7016130b6f..23567c3b9f 100644
+--- a/PCbuild/pyproject.props
++++ b/PCbuild/pyproject.props
+@@ -34,7 +34,7 @@
+       <IntrinsicFunctions>true</IntrinsicFunctions>
+       <StringPooling>true</StringPooling>
+       <ExceptionHandling></ExceptionHandling>
+-      <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
++      <RuntimeLibrary>MultiThreaded</RuntimeLibrary>
+       <FunctionLevelLinking>true</FunctionLevelLinking>
+       <WarningLevel>Level3</WarningLevel>
+       <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
+@@ -46,7 +46,7 @@
+     <ClCompile Condition="$(Configuration) == 'Debug'">
+       <Optimization>Disabled</Optimization>
+       <WholeProgramOptimization>false</WholeProgramOptimization>
+-      <RuntimeLibrary>MultiThreadedDebugDLL</RuntimeLibrary>
++      <RuntimeLibrary>MultiThreadedDebug</RuntimeLibrary>
+     </ClCompile>
+     <ClCompile Condition="$(ICCBuild) == 'true'">
+       <FloatingPointModel>Strict</FloatingPointModel>
+diff --git a/PCbuild/pyshellext.vcxproj b/PCbuild/pyshellext.vcxproj
+index 029393504c..a3da13d338 100644
+--- a/PCbuild/pyshellext.vcxproj
++++ b/PCbuild/pyshellext.vcxproj
+@@ -43,7 +43,7 @@
+   <Import Project="python.props" />
+   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+   <PropertyGroup Label="Configuration">
+-    <ConfigurationType>DynamicLibrary</ConfigurationType>
++    <ConfigurationType>StaticLibrary</ConfigurationType>
+     <CharacterSet>Unicode</CharacterSet>
+   </PropertyGroup>
+   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+diff --git a/PCbuild/python3dll.vcxproj b/PCbuild/python3dll.vcxproj
+index d2a9cae5d9..888a1cb789 100644
+--- a/PCbuild/python3dll.vcxproj
++++ b/PCbuild/python3dll.vcxproj
+@@ -44,7 +44,7 @@
+   <Import Project="python.props" />
+   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+   <PropertyGroup Label="Configuration">
+-    <ConfigurationType>DynamicLibrary</ConfigurationType>
++    <ConfigurationType>StaticLibrary</ConfigurationType>
+   </PropertyGroup>
+   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+   <ImportGroup Label="ExtensionSettings">
+diff --git a/PCbuild/pythoncore.vcxproj b/PCbuild/pythoncore.vcxproj
+index d19b5f5acf..aeb4b00e9c 100644
+--- a/PCbuild/pythoncore.vcxproj
++++ b/PCbuild/pythoncore.vcxproj
+@@ -41,7 +41,7 @@
+   <Import Project="python.props" />
+   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+   <PropertyGroup Label="Configuration">
+-    <ConfigurationType>DynamicLibrary</ConfigurationType>
++    <ConfigurationType>StaticLibrary</ConfigurationType>
+     <UseOfMfc>false</UseOfMfc>
+   </PropertyGroup>
+   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+@@ -70,7 +70,7 @@
+       <AdditionalOptions>/Zm200  %(AdditionalOptions)</AdditionalOptions>
+       <AdditionalIncludeDirectories>$(PySourcePath)Python;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+       <AdditionalIncludeDirectories Condition="$(IncludeExternals)">$(zlibDir);%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+-      <PreprocessorDefinitions>_USRDLL;Py_BUILD_CORE;Py_ENABLE_SHARED;MS_DLL_ID="$(SysWinVer)";%(PreprocessorDefinitions)</PreprocessorDefinitions>
++      <PreprocessorDefinitions>_USRDLL;Py_BUILD_CORE;Py_NO_ENABLE_SHARED;MS_DLL_ID="$(SysWinVer)";%(PreprocessorDefinitions)</PreprocessorDefinitions>
+       <PreprocessorDefinitions Condition="$(IncludeExternals)">_Py_HAVE_ZLIB;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+     </ClCompile>
+     <Link>
+diff --git a/PCbuild/select.vcxproj b/PCbuild/select.vcxproj
+index ea75705ae4..1d997474c5 100644
+--- a/PCbuild/select.vcxproj
++++ b/PCbuild/select.vcxproj
+@@ -41,7 +41,7 @@
+   <Import Project="python.props" />
+   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+   <PropertyGroup Label="Configuration">
+-    <ConfigurationType>DynamicLibrary</ConfigurationType>
++    <ConfigurationType>StaticLibrary</ConfigurationType>
+     <CharacterSet>NotSet</CharacterSet>
+   </PropertyGroup>
+   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+diff --git a/PCbuild/sqlite3.vcxproj b/PCbuild/sqlite3.vcxproj
+index 4f5b1965d9..fb2127c980 100644
+--- a/PCbuild/sqlite3.vcxproj
++++ b/PCbuild/sqlite3.vcxproj
+@@ -43,7 +43,7 @@
+   <Import Project="python.props" />
+   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+   <PropertyGroup Label="Configuration">
+-    <ConfigurationType>DynamicLibrary</ConfigurationType>
++    <ConfigurationType>StaticLibrary</ConfigurationType>
+     <CharacterSet>NotSet</CharacterSet>
+   </PropertyGroup>
+   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+diff --git a/PCbuild/unicodedata.vcxproj b/PCbuild/unicodedata.vcxproj
+index b80da53af3..de26198556 100644
+--- a/PCbuild/unicodedata.vcxproj
++++ b/PCbuild/unicodedata.vcxproj
+@@ -42,7 +42,7 @@
+   <Import Project="python.props" />
+   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+   <PropertyGroup Label="Configuration">
+-    <ConfigurationType>DynamicLibrary</ConfigurationType>
++    <ConfigurationType>StaticLibrary</ConfigurationType>
+     <CharacterSet>NotSet</CharacterSet>
+   </PropertyGroup>
+   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+diff --git a/PCbuild/winsound.vcxproj b/PCbuild/winsound.vcxproj
+index 12913efdef..065b9fca65 100644
+--- a/PCbuild/winsound.vcxproj
++++ b/PCbuild/winsound.vcxproj
+@@ -42,7 +42,7 @@
+   <Import Project="python.props" />
+   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+   <PropertyGroup Label="Configuration">
+-    <ConfigurationType>DynamicLibrary</ConfigurationType>
++    <ConfigurationType>StaticLibrary</ConfigurationType>
+     <CharacterSet>NotSet</CharacterSet>
+   </PropertyGroup>
+   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+diff --git a/PCbuild/xxlimited.vcxproj b/PCbuild/xxlimited.vcxproj
+index a796255c82..185b384cf2 100644
+--- a/PCbuild/xxlimited.vcxproj
++++ b/PCbuild/xxlimited.vcxproj
+@@ -42,7 +42,7 @@
+   <Import Project="python.props" />
+   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+   <PropertyGroup Label="Configuration">
+-    <ConfigurationType>DynamicLibrary</ConfigurationType>
++    <ConfigurationType>StaticLibrary</ConfigurationType>
+     <CharacterSet>NotSet</CharacterSet>
+     <SupportPGO>false</SupportPGO>
+   </PropertyGroup>
